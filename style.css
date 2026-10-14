@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+#main{
+width: 100%;
+height: 100%;
+background-color: black;
+background-image: url("https://images.unsplash.com/photo-1775853808750-4e6cd73c838a?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+background-position: center;
+background-size: cover;
+}
+#main #layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#content{
+width: 600px;
+height: 300px;
+/* background-color:white; */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+#content #circle
+{
+width: 100px;
+height: 100px;
+position: relative;
+margin-left: 37%;
+background-color: white;
+border-radius: 50%;
+margin-top: 12px;
+background-position: top;
+background-size: cover;
+background-image: url("https://images.unsplash.com/photo-1709072245760-ec5b9a6b9f9b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+border:4px solid white;
+
+}
+#content p{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+#box
+{
+    width: 150px;
+    height: 55px;
+    border-radius: 50px;
+    position: absolute;
+    background-color:white;
+    top: 14px;
+    left: 60px;
+}
+#box h1{
+    font-size: 23px;
+    color:black;
+    margin-left: 14px;
+    margin-top: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#content button {
+    background-color:white;
+    color:black;
+    width: 120px;
+    height: 33px;
+    border-radius: 12px;
+    margin-left: 38%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+    border: none;
+    font-size: 15px ;
+}
